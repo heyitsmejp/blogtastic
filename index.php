@@ -25,7 +25,7 @@
  <tbody>
  <?php while ($row = $query->fetch()): ?>
  <tr><td><h1><?php echo htmlspecialchars($row['subject'])?></h1></td></tr>
- <tr><td><i>Posted on: <?php echo htmlspecialchars($row['dateposted']); ?></i><td></tr>
+ <tr><td><i>Posted: <?php echo htmlspecialchars($row['dateposted']); ?></i><td></tr>
  <tr><td><?php echo htmlspecialchars($row['body']); ?></td></tr> 
      
  
